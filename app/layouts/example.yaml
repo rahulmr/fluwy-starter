@@ -11,7 +11,7 @@ page:
           trigger:
             avatar:
               size: sm
-              name: John Doe Smith
+              name: Rahul Raut
               src: /user.jpg
           content:
             - dropdown_item:
