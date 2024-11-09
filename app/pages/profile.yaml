@@ -1,0 +1,9 @@
+layout: example
+---
+h1: Profile
+p: This is my profile page
+button:
+  text: Back to Home
+  icon_left: solar:alt-arrow-left-linear
+  on_click:
+    goto: /

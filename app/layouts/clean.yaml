@@ -1,0 +1,20 @@
+theme: default
+---
+page:
+  body:
+    header:
+      - sidebar_toggler:
+      - spacer:
+      - dark_mode_toggler:        
+      
+    sidebar:
+      - brand:
+          class: px-4 mb-4
+          light: /fluwy-logo-black.svg
+          dark: /fluwy-logo-white.svg
+      
+      - menu_item:
+                text: Login
+                icon: solar:login-linear
+                url: /login
+    slot: default

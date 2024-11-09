@@ -1,9 +1,9 @@
-# layout: example
+layout: example
 ---
 h1: About
 p: This is the about page
 button:
   text: Back to Home
-  icon_left: solar:alt-arrow-left-linear
+  icon: solar:alt-arrow-left-linear
   on_click:
     goto: /

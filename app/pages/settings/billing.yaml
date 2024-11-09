@@ -1,0 +1,9 @@
+layout: example
+---
+h1: Billing
+p: This is the billing page
+button:
+  text: Back to Settings
+  icon: solar:settings-linear
+  on_click:
+    goto: /settings/settings

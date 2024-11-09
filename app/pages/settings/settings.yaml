@@ -1,0 +1,20 @@
+layout: example
+---
+h1: Settings
+p: Settings page
+row:
+  class: gap-2
+  content:
+    - button:
+        text: Users
+        on_click:
+          goto: /settings/users
+    - button:
+        text: Billing
+        on_click:
+          goto: /settings/billing
+    - button:
+        text: Integrations
+        on_click:
+          goto: /settings/integrations
+  

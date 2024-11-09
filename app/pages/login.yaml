@@ -1,0 +1,17 @@
+layout: clean
+---
+h1: Login page
+p: Nothing to do here just click on Login button to go to Dashboard
+
+row:
+ class: gap-2
+ content:
+   - button:
+       text: Username
+
+   - button:
+      text: Login
+      on_click:
+        goto: /
+
+

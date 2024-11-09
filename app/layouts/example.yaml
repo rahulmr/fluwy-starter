@@ -11,20 +11,25 @@ page:
           trigger:
             avatar:
               size: sm
-              name: Rahul Raut
+              name: John Doe
               src: /user.jpg
           content:
             - dropdown_item:
                 text: My Profile
                 icon: solar:user-circle-linear
-                url: /profile
+                on_click: 
+                  goto: /profile
             - dropdown_item:
                 text: Settings
                 icon: solar:settings-linear
+                on_click: 
+                  goto: /settings/settings
             - dropdown_separator:
             - dropdown_item:
                 text: Logout
                 icon: solar:logout-linear
+                on_click:
+                  goto: /login
     sidebar:
       - brand:
           class: px-4 mb-4
@@ -35,6 +40,10 @@ page:
           icon: solar:home-smile-angle-linear
           url: /
       - menu_item:
+          text: Profile
+          icon: solar:user-circle-linear
+          url: /profile
+      - menu_item:
           text: Contacts
           icon: solar:users-group-two-rounded-linear
           url: /contacts
@@ -44,11 +53,18 @@ page:
           content:
             - menu_item:
                 text: Users
+                icon: solar:shield-user-linear
                 url: /settings/users
             - menu_item:
                 text: Billing
+                icon: solar:bill-linear
                 url: /settings/billing
             - menu_item:
                 text: Integrations
+                icon: solar:align-horizontal-center-linear
                 url: /settings/integrations
+      - menu_item:
+                text: Logout
+                icon: solar:logout-linear
+                url: /login
     slot: default

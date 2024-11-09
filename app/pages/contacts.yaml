@@ -1,0 +1,9 @@
+layout: example
+---
+h1: Contacts
+p: This is the contacts page
+button:
+  text: Back to Home
+  icon_left: solar:alt-arrow-left-linear
+  on_click:
+    goto: /
